@@ -1,0 +1,7 @@
+2021-05-25 00:29:26.914  INFO 28797 --- [main] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 28797 (/Users/zhouyang/Study/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/aogoBlog)
+2021-05-25 00:29:26.920  INFO 28797 --- [main] com.star.myBlogApplication               : The following profiles are active: pro
+2021-05-25 00:29:28.901  INFO 28797 --- [main] com.star.myBlogApplication               : Started myBlogApplication in 2.43 seconds (JVM running for 2.997)
+2021-05-25 00:29:39.379  INFO 28797 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.IndexController.index', args=[]}
+2021-05-25 00:29:39.381  INFO 28797 --- [http-nio-8080-exec-1] com.star.aspect.LogAspect                : Result : index
+2021-05-25 00:32:06.200  INFO 28797 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Request : {url='http://localhost:8080/test', ip='0:0:0:0:0:0:0:1', classMethod='com.star.controller.testController.quick', args=[]}
+2021-05-25 00:32:06.204  INFO 28797 --- [http-nio-8080-exec-4] com.star.aspect.LogAspect                : Result : hello world!
