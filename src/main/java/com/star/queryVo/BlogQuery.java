@@ -1,5 +1,7 @@
 package com.star.queryVo;
 
+import com.star.entity.Type;
+
 import java.util.Date;
 
 public class BlogQuery {

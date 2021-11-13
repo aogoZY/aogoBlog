@@ -1,5 +1,7 @@
 package com.star.entity;
 
+import com.star.queryVo.DetailBlog;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;

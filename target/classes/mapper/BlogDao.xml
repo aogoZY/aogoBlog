@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.star.dao.BlogDao">
+
+    <!--查询用户名和密码-->
+    <select id="getFirstPageBlog" resultType="firstPageBlog">
+        select b.id,b.title,b.first_picture,b.views,b.comment_count,b.update_time,b.description,
+        t.name,
+        u.nickname,u.avatar
+        from blog b,type t,user u
+        where b.type_id=t.id and u.id=b.user_id order by b.update_time desc
+    </select>
+
+    <resultMap id="firstPageBlog" type="com.star.queryVo.FirstPageBlog">
+        <id property="id" column="id"></id>
+        <result property="title" column="title"></result>
+        <result property="firstPicture" column="first_picture"></result>
+        <result property="views" column="views"></result>
+        <result property="commentCount" column="comment_count"></result>
+        <result property="updateTime" column="update_time"></result>
+        <result property="description" column="description"></result>
+        <result property="typeName" column="type_name"></result>
+        <result property="nickname" column="nickname"></result>
+        <result property="avatar" column="avatar"></result>
+
+    </resultMap>
+
+    <select id="getRecommendBlog" resultType="com.star.queryVo.RecommendBlog">
+        select * from blog.users where id=#{id};
+    </select>
+</mapper>

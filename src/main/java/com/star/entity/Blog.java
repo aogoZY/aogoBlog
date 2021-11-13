@@ -4,6 +4,7 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
 
 import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 public class Blog {
     private Long id;
