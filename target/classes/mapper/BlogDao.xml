@@ -26,6 +26,6 @@
     </resultMap>
 
     <select id="getRecommendBlog" resultType="com.star.queryVo.RecommendBlog">
-        select * from blog.users where id=#{id};
+        select * from blog.user where id=#{id};
     </select>
 </mapper>
