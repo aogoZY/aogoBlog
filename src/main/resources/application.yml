@@ -2,7 +2,7 @@ spring:
   thymeleaf:
     mode: HTML
   profiles:
-    active: pro
+    active: dev
 
 mybatis:
   type-aliases-package: com.star.entity

@@ -3,7 +3,7 @@
 <mapper namespace="com.star.dao.BlogDao">
 
     <!--查询用户名和密码-->
-    <select id="getFirstPageBlog" resultType="firstPageBlog">
+    <select id="getFirstPageBlog" resultMap="firstPageBlog">
         select b.id,b.title,b.first_picture,b.views,b.comment_count,b.update_time,b.description,
         t.name,
         u.nickname,u.avatar
@@ -12,16 +12,16 @@
     </select>
 
     <resultMap id="firstPageBlog" type="com.star.queryVo.FirstPageBlog">
-        <id property="id" column="id"></id>
-        <result property="title" column="title"></result>
-        <result property="firstPicture" column="first_picture"></result>
-        <result property="views" column="views"></result>
-        <result property="commentCount" column="comment_count"></result>
-        <result property="updateTime" column="update_time"></result>
-        <result property="description" column="description"></result>
-        <result property="typeName" column="type_name"></result>
-        <result property="nickname" column="nickname"></result>
-        <result property="avatar" column="avatar"></result>
+        <id property="id" column="id"/>
+        <result property="title" column="title"/>
+        <result property="firstPicture" column="first_picture"/>
+        <result property="views" column="views"/>
+        <result property="commentCount" column="comment_count"/>
+        <result property="updateTime" column="update_time"/>
+        <result property="description" column="description"/>
+        <result property="typeName" column="type_name"/>
+        <result property="nickname" column="nickname"/>
+        <result property="avatar" column="avatar"/>
 
     </resultMap>
 

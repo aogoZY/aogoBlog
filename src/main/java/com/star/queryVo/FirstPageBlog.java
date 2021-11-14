@@ -3,6 +3,7 @@ package com.star.queryVo;
 import java.util.Date;
 
 public class FirstPageBlog {
+    //    blog
     private Long id;
     private String firstPicture;
     private String title;
@@ -11,7 +12,12 @@ public class FirstPageBlog {
 
     private Date updateTime;
     private String description;
+
+    //    type
     private String typeName;
+
+
+    //    user
     private String nickname;
     private String avatar;
 
@@ -102,7 +108,7 @@ public class FirstPageBlog {
 
     @Override
     public String toString() {
-        return "FisrtPageBlog:" +
+        return "FirstPageBlog:" +
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", firstPicture='" + firstPicture + '\'' +

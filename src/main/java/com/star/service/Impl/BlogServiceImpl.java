@@ -13,7 +13,7 @@ import java.util.List;
 public class BlogServiceImpl implements BlogService {
 
     @Autowired
-    BlogDao blogDao;
+    private BlogDao blogDao;
 
     @Override
     public List<FirstPageBlog> getFirstPageBlog() {
