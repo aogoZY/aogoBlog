@@ -20,14 +20,12 @@ import java.io.InputStream;
 import java.nio.file.FileStore;
 import java.util.List;
 
+
+
 public class serviceTest {
 
     @Autowired
     BlogService blogService;
-
-    private InputStream in;
-    private SqlSession sqlSession;
-    private UserDao userDao;
 
 
 

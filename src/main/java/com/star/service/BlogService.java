@@ -9,4 +9,6 @@ public interface BlogService {
     List<FirstPageBlog> getFirstPageBlog();
 
     List<RecommendBlog> getRecommendBlog();
+
+    List<FirstPageBlog> getByTypeId(long id);
 }

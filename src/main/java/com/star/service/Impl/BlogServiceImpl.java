@@ -25,5 +25,10 @@ public class BlogServiceImpl implements BlogService {
         return blogDao.getRecommendBlog();
     }
 
+    @Override
+    public List<FirstPageBlog> getByTypeId(long typeId) {
+        return blogDao.getTypeById(typeId);
+    }
+
 
 }

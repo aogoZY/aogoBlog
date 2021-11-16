@@ -14,4 +14,6 @@ public interface BlogDao {
 
     List<RecommendBlog> getRecommendBlog();
 
+    List<FirstPageBlog> getTypeById(Long typeId);
+
 }

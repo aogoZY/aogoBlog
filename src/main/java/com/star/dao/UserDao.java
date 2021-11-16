@@ -14,6 +14,7 @@ import org.springframework.stereotype.Repository;
 @Mapper
 @Repository
 public interface UserDao {
+    //    根据账号密码查询用户信息
     User findByUserNameAndPassword(@Param("username") String userName, @Param("password") String password);
 
 }
