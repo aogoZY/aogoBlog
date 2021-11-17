@@ -3,7 +3,7 @@
 <mapper namespace="com.star.dao.UserDao">
 
     <!--查询用户名和密码-->
-    <select id="findByUsernameAndPassword" resultType="com.star.entity.User">
+    <select id="findByUserNameAndPassword" resultType="com.star.entity.User">
         select * from blog.user
         where username = #{username} and password = #{password};
     </select>

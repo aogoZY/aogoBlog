@@ -25,15 +25,22 @@
 
     </resultMap>
 
-    <select id="getRecommendBlog" resultType="com.star.queryVo.RecommendBlog">
-        select * from blog.user where id=#{id};
+    <select id="getRecommendBlog" resultMap="recommendBlog">
+        select * from blog where b.recommend=ture order by update_time desc limit 4;
     </select>
 
+    <resultMap id="recommendBlog" type="com.star.queryVo.RecommendBlog">
+        <id property="id" column="id"/>
+        <result property="commend" column="commend"/>
+        <result property="title" column="title"/>
+        <result property="firstPicture" column="first_picture"/>
+    </resultMap>
+
     <select id="getTypeById" resultType="com.star.queryVo.FirstPageBlog">
-            select b.id,b.title.b.first_picture,b.views,b.comment_count,b.update_time,b.description,
-    t.name,
-    u.nickname,u.avatar
-    from blog b,type t, user u
-    where b.type_id=t.id and u.id =b.user_id and b.type_id=#{type_id} order by b.update_time desc;
+        select b.id,b.title.b.first_picture,b.views,b.comment_count,b.update_time,b.description,
+        t.name,
+        u.nickname,u.avatar
+        from blog b,type t, user u
+        where b.type_id=t.id and u.id =b.user_id and b.type_id=#{type_id} order by b.update_time desc;
     </select>
 </mapper>
