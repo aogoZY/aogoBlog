@@ -15,4 +15,10 @@
     </resultMap>
 
 
+    <!--查询所有type-->
+    <select id="getAllType" resultType="com.star.entity.Type">
+        select t.id,t.name from type t
+    </select>
+
+
 </mapper>
