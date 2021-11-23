@@ -1,7 +1,6 @@
 package com.star.dao;
 
 import com.star.entity.Type;
-import com.sun.deploy.security.ValidationState;
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 

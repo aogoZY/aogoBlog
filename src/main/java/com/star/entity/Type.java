@@ -10,7 +10,7 @@ public class Type {
 
     private List<Blog> blogs = new ArrayList<Blog>();
 
-    public Type(){
+    public Type() {
 
     }
 
@@ -36,5 +36,10 @@ public class Type {
 
     public Long getId() {
         return id;
+    }
+
+    @Override
+    public String toString() {
+        return "Type{id:" + id + ",name:" + name+"}";
     }
 }

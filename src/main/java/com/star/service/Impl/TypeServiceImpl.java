@@ -24,5 +24,19 @@ public class TypeServiceImpl implements TypeService {
         return typeDao.getAllType();
     }
 
+    @Override
+    public Type getTypeByName(String name) {
+        return typeDao.getTypeByName(name);
+    }
+
+    @Override
+    public Type getTypeById(long id) {
+        return typeDao.getTypeById(id);
+    }
+
+    @Override
+    public int saveType(Type type) {
+        return typeDao.saveType(type);
+    }
 
 }

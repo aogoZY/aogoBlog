@@ -1,5 +1,6 @@
 package com.star.dao;
 
+import com.star.entity.Type;
 import com.star.queryVo.FirstPageBlog;
 import com.star.queryVo.RecommendBlog;
 import org.apache.ibatis.annotations.Mapper;
@@ -14,6 +15,7 @@ public interface BlogDao {
 
     List<RecommendBlog> getRecommendBlog();
 
-    List<FirstPageBlog> getTypeById(Long typeId);
+    List<FirstPageBlog> getByTypeId(Long typeId);
+
 
 }

@@ -26,7 +26,7 @@
     </resultMap>
 
     <select id="getRecommendBlog" resultMap="recommendBlog">
-        select * from blog where b.recommend=ture order by update_time desc limit 4;
+        select * from blog b where b.recommend=true order by update_time desc limit 4;
     </select>
 
     <resultMap id="recommendBlog" type="com.star.queryVo.RecommendBlog">
@@ -36,7 +36,8 @@
         <result property="firstPicture" column="first_picture"/>
     </resultMap>
 
-    <select id="getTypeById" resultType="com.star.queryVo.FirstPageBlog">
+    <!--分类页面查询-->
+    <select id="getByTypeId" resultMap="firstPageBlog">
         select b.id,b.title.b.first_picture,b.views,b.comment_count,b.update_time,b.description,
         t.name,
         u.nickname,u.avatar

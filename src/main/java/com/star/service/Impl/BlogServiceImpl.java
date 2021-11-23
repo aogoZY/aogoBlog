@@ -27,7 +27,7 @@ public class BlogServiceImpl implements BlogService {
 
     @Override
     public List<FirstPageBlog> getByTypeId(long typeId) {
-        return blogDao.getTypeById(typeId);
+        return blogDao.getByTypeId(typeId);
     }
 
 

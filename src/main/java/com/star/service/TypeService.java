@@ -9,4 +9,13 @@ public interface TypeService {
 
     //    分类列表页获取所有type
     List<Type> getAllType();
+
+    //    根据分类名称查询分类信息
+    Type getTypeByName(String name);
+
+    //    新增分类名称
+    int saveType(Type type);
+
+    //    根据id查询分类信息
+    Type getTypeById(long id);
 }
