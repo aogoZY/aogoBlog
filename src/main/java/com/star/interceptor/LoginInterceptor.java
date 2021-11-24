@@ -12,6 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 //继承HandlerInterceptorAdapter适配器，重写预处理方法preHandle
 //        对session进行判断，看是否有用户，没有的话重定向到登录页面，给拦截掉
 //        还需要指定拦截的内容
+
+//preHandle在执行Controller的任务之前。如果返回true就继续往下执行，返回false就放弃执行
 public class LoginInterceptor extends HandlerInterceptorAdapter {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {

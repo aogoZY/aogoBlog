@@ -42,7 +42,7 @@
     </delete>
 
     <update id="updateType" parameterType="com.star.entity.Type">
-        update type set name = #{name}
+        update type set name = #{name} where id =#{id}
     </update>
 
 

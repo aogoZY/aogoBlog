@@ -1,0 +1,336 @@
+2021-11-23 02:30:35.431  WARN 3065 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s739ms).
+2021-11-23 04:31:03.971  WARN 3065 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s540ms).
+2021-11-23 06:32:02.459  WARN 3065 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h28s482ms).
+2021-11-23 07:45:49.851  WARN 3065 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h13m17s381ms).
+2021-11-23 08:01:05.667  INFO 3957 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 3957 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:01:05.669 DEBUG 3957 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:01:05.669  INFO 3957 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:01:08.563  INFO 3957 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:01:08.718  INFO 3957 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:01:09.292  INFO 3957 --- [main] com.star.daoTest.typeTest                : Started typeTest in 4.24 seconds (JVM running for 5.176)
+2021-11-23 08:01:09.594  INFO 3957 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:08:06.680  INFO 3065 --- [Thread-6] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:08:06.684  INFO 3065 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:08:06.693  INFO 3065 --- [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:08:07.232  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 3065 (/Users/zhouyang/Study/code/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:08:07.233 DEBUG 3065 --- [restartedMain] com.star.myBlogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:08:07.233  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : The following profiles are active: dev
+2021-11-23 08:08:07.770  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-23 08:08:07.772  INFO 3065 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-23 08:08:07.773  INFO 3065 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-23 08:08:07.797  INFO 3065 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-23 08:08:07.797  INFO 3065 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 558 ms
+2021-11-23 08:08:08.309  INFO 3065 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:08:08.398  INFO 3065 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:08:08.737  INFO 3065 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-23 08:08:08.754  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-23 08:08:08.755  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Started myBlogApplication in 1.793 seconds (JVM running for 6056.009)
+2021-11-23 08:08:08.757  INFO 3065 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-23 08:08:09.298  INFO 4022 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4022 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:08:09.299 DEBUG 4022 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:08:09.299  INFO 4022 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:08:11.231  INFO 3065 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:08:11.405  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 3065 (/Users/zhouyang/Study/code/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:08:11.406 DEBUG 3065 --- [restartedMain] com.star.myBlogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:08:11.406  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : The following profiles are active: dev
+2021-11-23 08:08:11.843  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-23 08:08:11.845  INFO 3065 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-23 08:08:11.845  INFO 3065 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-23 08:08:11.852  INFO 3065 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-23 08:08:11.853  INFO 3065 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 445 ms
+2021-11-23 08:08:12.000  INFO 4022 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:08:12.243  INFO 3065 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:08:12.251  INFO 4022 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:08:12.302  INFO 3065 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:08:12.635  INFO 3065 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-23 08:08:12.651  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-23 08:08:12.653  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Started myBlogApplication in 1.281 seconds (JVM running for 6059.907)
+2021-11-23 08:08:12.654  INFO 3065 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-23 08:08:13.034  INFO 4022 --- [main] com.star.daoTest.typeTest                : Started typeTest in 4.316 seconds (JVM running for 5.579)
+2021-11-23 08:08:13.339  INFO 4022 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:13:33.931  INFO 4071 --- [main] com.star.daoTest.userTest                : Starting userTest on zhouyangdeMacBook-Pro.local with PID 4071 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:13:33.932 DEBUG 4071 --- [main] com.star.daoTest.userTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:13:33.932  INFO 4071 --- [main] com.star.daoTest.userTest                : The following profiles are active: dev
+2021-11-23 08:13:36.336  INFO 4071 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:13:36.488  INFO 4071 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:13:36.923  INFO 4071 --- [main] com.star.daoTest.userTest                : Started userTest in 3.623 seconds (JVM running for 5.08)
+2021-11-23 08:13:37.215  INFO 4071 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:13:37.428  INFO 4071 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:13:37.437 DEBUG 4071 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==>  Preparing: select * from blog.user where username = ? and password = ?; 
+2021-11-23 08:13:37.464 DEBUG 4071 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==> Parameters: aogo(String), 123(String)
+2021-11-23 08:13:37.493 DEBUG 4071 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : <==      Total: 0
+2021-11-23 08:13:37.512  INFO 4071 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:13:37.515  INFO 4071 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:13:37.527  INFO 4071 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:13:50.812  INFO 4079 --- [main] com.star.daoTest.userTest                : Starting userTest on zhouyangdeMacBook-Pro.local with PID 4079 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:13:50.813 DEBUG 4079 --- [main] com.star.daoTest.userTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:13:50.814  INFO 4079 --- [main] com.star.daoTest.userTest                : The following profiles are active: dev
+2021-11-23 08:13:52.711  INFO 4079 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:13:52.841  INFO 4079 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:13:53.217  INFO 4079 --- [main] com.star.daoTest.userTest                : Started userTest in 2.96 seconds (JVM running for 3.714)
+2021-11-23 08:13:53.390  INFO 4079 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:13:53.552  INFO 4079 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:13:53.560 DEBUG 4079 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==>  Preparing: select * from blog.user where username = ? and password = ?; 
+2021-11-23 08:13:53.584 DEBUG 4079 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==> Parameters: aogo(String), 123(String)
+2021-11-23 08:13:53.610 DEBUG 4079 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : <==      Total: 0
+2021-11-23 08:13:53.624  INFO 4079 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:13:53.625  INFO 4079 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:13:53.634  INFO 4079 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:14:42.369  INFO 4091 --- [main] com.star.daoTest.userTest                : Starting userTest on zhouyangdeMacBook-Pro.local with PID 4091 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:14:42.370 DEBUG 4091 --- [main] com.star.daoTest.userTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:14:42.371  INFO 4091 --- [main] com.star.daoTest.userTest                : The following profiles are active: dev
+2021-11-23 08:14:44.536  INFO 4091 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:14:44.674  INFO 4091 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:14:45.032  INFO 4091 --- [main] com.star.daoTest.userTest                : Started userTest in 3.18 seconds (JVM running for 3.901)
+2021-11-23 08:14:45.260  INFO 4091 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:14:45.442  INFO 4091 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:14:45.449 DEBUG 4091 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==>  Preparing: select * from blog.user where username = ? and password = ?; 
+2021-11-23 08:14:45.477 DEBUG 4091 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==> Parameters: aogo(String), 202cb962ac59075b964b07152d234b70(String)
+2021-11-23 08:14:45.507 DEBUG 4091 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : <==      Total: 1
+2021-11-23 08:14:45.522  INFO 4091 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:14:45.524  INFO 4091 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:14:45.534  INFO 4091 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:16:44.310  INFO 3065 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:16:44.670  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 3065 (/Users/zhouyang/Study/code/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:16:44.670 DEBUG 3065 --- [restartedMain] com.star.myBlogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:16:44.670  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : The following profiles are active: dev
+2021-11-23 08:16:44.866  INFO 4116 --- [main] com.star.daoTest.userTest                : Starting userTest on zhouyangdeMacBook-Pro.local with PID 4116 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:16:44.868 DEBUG 4116 --- [main] com.star.daoTest.userTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:16:44.868  INFO 4116 --- [main] com.star.daoTest.userTest                : The following profiles are active: dev
+2021-11-23 08:16:45.062  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-23 08:16:45.063  INFO 3065 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-23 08:16:45.064  INFO 3065 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-23 08:16:45.076  INFO 3065 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-23 08:16:45.076  INFO 3065 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 401 ms
+2021-11-23 08:16:45.408  INFO 3065 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:16:45.455  INFO 3065 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:16:45.700  INFO 3065 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-23 08:16:45.717  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-23 08:16:45.718  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Started myBlogApplication in 1.096 seconds (JVM running for 6572.986)
+2021-11-23 08:16:45.719  INFO 3065 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-23 08:16:47.396  INFO 4116 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:16:47.537  INFO 4116 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:16:47.941  INFO 4116 --- [main] com.star.daoTest.userTest                : Started userTest in 3.817 seconds (JVM running for 4.56)
+2021-11-23 08:16:48.174  INFO 4116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:16:48.351  INFO 4116 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:16:48.360 DEBUG 4116 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==>  Preparing: select * from blog.user where username = ? and password = ?; 
+2021-11-23 08:16:48.399 DEBUG 4116 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : ==> Parameters: aogo(String), 202cb962ac59075b964b07152d234b70(String)
+2021-11-23 08:16:48.427 DEBUG 4116 --- [main] c.s.d.UserDao.findByUserNameAndPassword  : <==      Total: 1
+2021-11-23 08:16:48.449  INFO 4116 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:16:48.450  INFO 4116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:16:48.462  INFO 4116 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:36:15.647  INFO 3065 --- [Thread-19] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:36:16.117  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 3065 (/Users/zhouyang/Study/code/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:36:16.117 DEBUG 3065 --- [restartedMain] com.star.myBlogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:36:16.117  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : The following profiles are active: dev
+2021-11-23 08:36:16.387  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-23 08:36:16.388  INFO 3065 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-23 08:36:16.389  INFO 3065 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-23 08:36:16.396  INFO 3065 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-23 08:36:16.396  INFO 3065 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 276 ms
+2021-11-23 08:36:16.662  INFO 3065 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:36:16.718  INFO 3065 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:36:17.023  INFO 3065 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-23 08:36:17.039  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-23 08:36:17.040  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Started myBlogApplication in 1.088 seconds (JVM running for 7744.242)
+2021-11-23 08:36:17.041  INFO 3065 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-23 08:36:18.296  INFO 4386 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4386 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:36:18.297 DEBUG 4386 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:36:18.298  INFO 4386 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:36:20.865  INFO 4386 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:36:21.036  INFO 4386 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:36:21.511  INFO 4386 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.837 seconds (JVM running for 4.932)
+2021-11-23 08:36:21.741  INFO 4386 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:36:21.911  INFO 4386 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:36:21.918 DEBUG 4386 --- [main] com.star.dao.TypeDao.saveType            : ==>  Preparing: insert into type values (?,?); 
+2021-11-23 08:36:21.942 DEBUG 4386 --- [main] com.star.dao.TypeDao.saveType            : ==> Parameters: null, aozhu(String)
+2021-11-23 08:36:21.972 DEBUG 4386 --- [main] com.star.dao.TypeDao.saveType            : <==    Updates: 1
+2021-11-23 08:36:21.986  INFO 4386 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:36:21.988  INFO 4386 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:36:21.997  INFO 4386 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:36:46.543  INFO 4394 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4394 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:36:46.544 DEBUG 4394 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:36:46.545  INFO 4394 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:36:48.435  INFO 4394 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:36:48.557  INFO 4394 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:36:48.937  INFO 4394 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.098 seconds (JVM running for 3.865)
+2021-11-23 08:36:49.119  INFO 4394 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:36:49.283  INFO 4394 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:36:49.293 DEBUG 4394 --- [main] com.star.dao.TypeDao.saveType            : ==>  Preparing: insert into type values (?,?); 
+2021-11-23 08:36:49.323 DEBUG 4394 --- [main] com.star.dao.TypeDao.saveType            : ==> Parameters: null, aozhu(String)
+2021-11-23 08:36:49.336 DEBUG 4394 --- [main] com.star.dao.TypeDao.saveType            : <==    Updates: 1
+2021-11-23 08:36:49.348  INFO 4394 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:36:49.349  INFO 4394 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:36:49.360  INFO 4394 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:39:41.073  INFO 4418 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4418 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:39:41.075 DEBUG 4418 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:39:41.075  INFO 4418 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:39:43.141  INFO 4418 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:39:43.266  INFO 4418 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:39:43.845  INFO 4418 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.602 seconds (JVM running for 4.411)
+2021-11-23 08:39:44.086  INFO 4418 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:39:44.276  INFO 4418 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:39:44.284 DEBUG 4418 --- [main] com.star.dao.TypeDao.getTypeByName       : ==>  Preparing: select * from type where name=? 
+2021-11-23 08:39:44.309 DEBUG 4418 --- [main] com.star.dao.TypeDao.getTypeByName       : ==> Parameters: study(String)
+2021-11-23 08:39:44.332 DEBUG 4418 --- [main] com.star.dao.TypeDao.getTypeByName       : <==      Total: 0
+2021-11-23 08:39:44.339 DEBUG 4418 --- [main] com.star.dao.TypeDao.saveType            : ==>  Preparing: insert into type values (?,?); 
+2021-11-23 08:39:44.339 DEBUG 4418 --- [main] com.star.dao.TypeDao.saveType            : ==> Parameters: null, study(String)
+2021-11-23 08:39:44.347 DEBUG 4418 --- [main] com.star.dao.TypeDao.saveType            : <==    Updates: 1
+2021-11-23 08:39:44.358  INFO 4418 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:39:44.359  INFO 4418 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:39:44.369  INFO 4418 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:40:02.428  INFO 4424 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4424 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:40:02.435 DEBUG 4424 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:40:02.435  INFO 4424 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:40:04.352  INFO 4424 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:40:04.488  INFO 4424 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:40:04.854  INFO 4424 --- [main] com.star.daoTest.typeTest                : Started typeTest in 2.967 seconds (JVM running for 3.699)
+2021-11-23 08:40:05.088  INFO 4424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:40:05.250  INFO 4424 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:40:05.257 DEBUG 4424 --- [main] com.star.dao.TypeDao.getTypeByName       : ==>  Preparing: select * from type where name=? 
+2021-11-23 08:40:05.299 DEBUG 4424 --- [main] com.star.dao.TypeDao.getTypeByName       : ==> Parameters: study(String)
+2021-11-23 08:40:05.323 DEBUG 4424 --- [main] com.star.dao.TypeDao.getTypeByName       : <==      Total: 1
+2021-11-23 08:40:05.338  INFO 4424 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:40:05.340  INFO 4424 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:40:05.348  INFO 4424 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:41:22.395  INFO 4438 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4438 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:41:22.397 DEBUG 4438 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:41:22.397  INFO 4438 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:41:24.540  INFO 4438 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:41:24.690  INFO 4438 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:41:25.132  INFO 4438 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.289 seconds (JVM running for 4.027)
+2021-11-23 08:41:25.375  INFO 4438 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:41:25.556  INFO 4438 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:41:25.566 DEBUG 4438 --- [main] com.star.dao.TypeDao.getAllType          : ==>  Preparing: select * from type 
+2021-11-23 08:41:25.591 DEBUG 4438 --- [main] com.star.dao.TypeDao.getAllType          : ==> Parameters: 
+2021-11-23 08:41:25.612 DEBUG 4438 --- [main] com.star.dao.TypeDao.getAllType          : <==      Total: 4
+2021-11-23 08:41:25.627  INFO 4438 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:41:25.629  INFO 4438 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:41:25.637  INFO 4438 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:44:25.182  INFO 4469 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4469 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:44:25.183 DEBUG 4469 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:44:25.184  INFO 4469 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:44:27.175  INFO 4469 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:44:27.361  INFO 4469 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:44:27.829  INFO 4469 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.305 seconds (JVM running for 4.104)
+2021-11-23 08:44:28.058  INFO 4469 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:44:28.250  INFO 4469 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:44:28.261 DEBUG 4469 --- [main] com.star.dao.TypeDao.getAllType          : ==>  Preparing: select * from type 
+2021-11-23 08:44:28.290 DEBUG 4469 --- [main] com.star.dao.TypeDao.getAllType          : ==> Parameters: 
+2021-11-23 08:44:28.316 DEBUG 4469 --- [main] com.star.dao.TypeDao.getAllType          : <==      Total: 4
+2021-11-23 08:44:28.332  INFO 4469 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:44:28.333  INFO 4469 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:44:28.344  INFO 4469 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:44:47.630  INFO 4476 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4476 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:44:47.631 DEBUG 4476 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:44:47.631  INFO 4476 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:44:49.894  INFO 4476 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:44:50.037  INFO 4476 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:44:50.468  INFO 4476 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.424 seconds (JVM running for 4.186)
+2021-11-23 08:44:50.641  INFO 4476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:44:50.804  INFO 4476 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:44:50.811 DEBUG 4476 --- [main] com.star.dao.TypeDao.getAllType          : ==>  Preparing: select * from type 
+2021-11-23 08:44:50.835 DEBUG 4476 --- [main] com.star.dao.TypeDao.getAllType          : ==> Parameters: 
+2021-11-23 08:44:50.871 DEBUG 4476 --- [main] com.star.dao.TypeDao.getAllType          : <==      Total: 4
+2021-11-23 08:44:50.886  INFO 4476 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:44:50.888  INFO 4476 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:44:50.900  INFO 4476 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:47:10.151  INFO 3065 --- [Thread-24] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:47:10.480  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 3065 (/Users/zhouyang/Study/code/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:47:10.480 DEBUG 3065 --- [restartedMain] com.star.myBlogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:47:10.480  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : The following profiles are active: dev
+2021-11-23 08:47:10.949  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-23 08:47:10.950  INFO 3065 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-23 08:47:10.950  INFO 3065 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-23 08:47:10.958  INFO 3065 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-23 08:47:10.959  INFO 3065 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 476 ms
+2021-11-23 08:47:11.073  INFO 4502 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4502 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:47:11.075 DEBUG 4502 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:47:11.075  INFO 4502 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:47:11.255  INFO 3065 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:47:11.294  INFO 3065 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:47:11.481  INFO 3065 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-23 08:47:11.496  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-23 08:47:11.498  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Started myBlogApplication in 1.064 seconds (JVM running for 8398.715)
+2021-11-23 08:47:11.499  INFO 3065 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-23 08:47:13.439  INFO 4502 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:47:13.588  INFO 4502 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:47:14.040  INFO 4502 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.715 seconds (JVM running for 4.503)
+2021-11-23 08:47:14.272  INFO 4502 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:47:14.439  INFO 4502 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:47:14.446 DEBUG 4502 --- [main] com.star.dao.TypeDao.getAllType          : ==>  Preparing: select * from type 
+2021-11-23 08:47:14.471 DEBUG 4502 --- [main] com.star.dao.TypeDao.getAllType          : ==> Parameters: 
+2021-11-23 08:47:14.497 DEBUG 4502 --- [main] com.star.dao.TypeDao.getAllType          : <==      Total: 4
+2021-11-23 08:47:14.524  INFO 4502 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:47:14.525  INFO 4502 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:47:14.534  INFO 4502 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:48:46.163  INFO 3065 --- [Thread-29] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:48:46.491  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 3065 (/Users/zhouyang/Study/code/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:48:46.491 DEBUG 3065 --- [restartedMain] com.star.myBlogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:48:46.491  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : The following profiles are active: dev
+2021-11-23 08:48:46.827  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-23 08:48:46.828  INFO 3065 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-23 08:48:46.829  INFO 3065 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-23 08:48:46.830  INFO 4519 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4519 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:48:46.831 DEBUG 4519 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:48:46.832  INFO 4519 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:48:46.836  INFO 3065 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-23 08:48:46.837  INFO 3065 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 343 ms
+2021-11-23 08:48:47.081  INFO 3065 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:48:47.112  INFO 3065 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:48:47.316  INFO 3065 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-23 08:48:47.335  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-23 08:48:47.337  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Started myBlogApplication in 1.037 seconds (JVM running for 8494.557)
+2021-11-23 08:48:47.338  INFO 3065 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-23 08:48:49.110  INFO 4519 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:48:49.262  INFO 4519 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:48:49.672  INFO 4519 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.633 seconds (JVM running for 4.365)
+2021-11-23 08:48:49.905  INFO 4519 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:48:50.091  INFO 4519 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:48:50.097 DEBUG 4519 --- [main] com.star.dao.TypeDao.deleteType          : ==>  Preparing: delete from type where id in ? 
+2021-11-23 08:48:50.124 DEBUG 4519 --- [main] com.star.dao.TypeDao.deleteType          : ==> Parameters: 59(Long)
+2021-11-23 08:48:50.205  INFO 4519 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:48:50.207  INFO 4519 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:48:50.221  INFO 4519 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:49:03.395  INFO 4528 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4528 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:49:03.396 DEBUG 4528 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:49:03.396  INFO 4528 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:49:05.484  INFO 4528 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:49:05.614  INFO 4528 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:49:05.980  INFO 4528 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.061 seconds (JVM running for 3.753)
+2021-11-23 08:49:06.161  INFO 4528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:49:06.330  INFO 4528 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:49:06.337 DEBUG 4528 --- [main] com.star.dao.TypeDao.deleteType          : ==>  Preparing: delete from type where id in ? 
+2021-11-23 08:49:06.360 DEBUG 4528 --- [main] com.star.dao.TypeDao.deleteType          : ==> Parameters: 59(Long)
+2021-11-23 08:49:06.438  INFO 4528 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:49:06.440  INFO 4528 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:49:06.453  INFO 4528 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-11-23 08:50:07.421  INFO 3065 --- [Thread-34] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:50:07.786  INFO 4541 --- [main] com.star.daoTest.typeTest                : Starting typeTest on zhouyangdeMacBook-Pro.local with PID 4541 (started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:50:07.787 DEBUG 4541 --- [main] com.star.daoTest.typeTest                : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:50:07.787  INFO 4541 --- [main] com.star.daoTest.typeTest                : The following profiles are active: dev
+2021-11-23 08:50:07.789  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Starting myBlogApplication on zhouyangdeMacBook-Pro.local with PID 3065 (/Users/zhouyang/Study/code/aogoBlog/target/classes started by zhouyang in /Users/zhouyang/Study/code/aogoBlog)
+2021-11-23 08:50:07.789 DEBUG 3065 --- [restartedMain] com.star.myBlogApplication               : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2021-11-23 08:50:07.789  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : The following profiles are active: dev
+2021-11-23 08:50:08.095  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-11-23 08:50:08.098  INFO 3065 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-11-23 08:50:08.099  INFO 3065 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2021-11-23 08:50:08.111  INFO 3065 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-11-23 08:50:08.113  INFO 3065 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 320 ms
+2021-11-23 08:50:08.376  INFO 3065 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:50:08.406  INFO 3065 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:50:08.551  INFO 3065 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-11-23 08:50:08.565  INFO 3065 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-11-23 08:50:08.566  INFO 3065 --- [restartedMain] com.star.myBlogApplication               : Started myBlogApplication in 0.822 seconds (JVM running for 8575.788)
+2021-11-23 08:50:08.567  INFO 3065 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-11-23 08:50:10.260  INFO 4541 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:50:10.394  INFO 4541 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-11-23 08:50:10.887  INFO 4541 --- [main] com.star.daoTest.typeTest                : Started typeTest in 3.687 seconds (JVM running for 4.424)
+2021-11-23 08:50:11.156  INFO 4541 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-11-23 08:50:11.328  INFO 4541 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-11-23 08:50:11.336 DEBUG 4541 --- [main] com.star.dao.TypeDao.deleteType          : ==>  Preparing: delete from type where id = ? 
+2021-11-23 08:50:11.359 DEBUG 4541 --- [main] com.star.dao.TypeDao.deleteType          : ==> Parameters: 59(Long)
+2021-11-23 08:50:11.378 DEBUG 4541 --- [main] com.star.dao.TypeDao.deleteType          : <==    Updates: 1
+2021-11-23 08:50:11.391  INFO 4541 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-11-23 08:50:11.392  INFO 4541 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-11-23 08:50:11.403  INFO 4541 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

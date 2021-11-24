@@ -18,4 +18,11 @@ public interface TypeService {
 
     //    根据id查询分类信息
     Type getTypeById(long id);
+
+
+    //更新type信息
+    int updateType(Type type);
+
+    //            删除type
+    int deleteTypeById(long id);
 }

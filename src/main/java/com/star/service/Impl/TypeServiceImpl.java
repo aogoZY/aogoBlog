@@ -39,4 +39,14 @@ public class TypeServiceImpl implements TypeService {
         return typeDao.saveType(type);
     }
 
+    @Override
+    public int updateType(Type type) {
+        return typeDao.updateType(type);
+    }
+
+    @Override
+    public int deleteTypeById(long id) {
+        return typeDao.deleteType(id);
+    }
+
 }

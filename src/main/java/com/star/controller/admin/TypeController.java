@@ -63,5 +63,33 @@ public class TypeController {
         return "admin/types-input";
     }
 
+    //    编辑修改分类
+    @PostMapping("types/{id}")
+    public String edit(@Valid Type type, RedirectAttributes redirectAttributes) {
+        Type existedType = typeService.getTypeByName(type.getName());
+        if (existedType != null) {
+            redirectAttributes.addFlashAttribute("message", "该分类已经存在请勿重复添加");
+            return "redirect:/admin/types/input";
+        }
+        int affected = typeService.updateType(type);
+        if (affected > 0) {
+            redirectAttributes.addFlashAttribute("message", "type修改成功");
+        } else {
+            redirectAttributes.addFlashAttribute("message", "type修改失败");
+        }
+        return "redirect:/admin/types";
 
+    }
+
+    //    删除分类
+    @PostMapping("types/{id}/delete")
+    public String delete(@PathVariable long id, RedirectAttributes redirectAttributes) {
+        int affected = typeService.deleteTypeById(id);
+        if (affected > 0) {
+            redirectAttributes.addFlashAttribute("message", "type删除成功");
+        } else {
+            redirectAttributes.addFlashAttribute("message", "type删除失败");
+        }
+        return "redirect:/admin/types";
+    }
 }
