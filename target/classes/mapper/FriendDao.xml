@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.star.dao.FriendDao">
+    <!--查询所有friends信息-->
+    <select id="getAllFriendList" resultType="com.star.entity.Friend">
+        select * from friend
+    </select>
+
+    <insert id="saveFriend" parameterType="com.star.entity.Friend">
+        insert into friend (blogaddress,blogname,create_time,pictureaddress)
+        values (#{blogaddress},#{blogname},#{createTime},#{pictureaddress})
+    </insert>
+
+    <update id="updateFriend" parameterType="com.star.entity.Friend">
+    update friend
+    <trim prefix="(" suffixOverrides=",">
+    <if test="blogaddress!=null">
+        blogaddress=#{blogaddress},</if>
+        <if test="blogname!=null">
+            blogname=#{blogname},</if>
+        <if test="pictureaddress!=null">,</if>
+        pictureaddress=#{pictureaddress}
+   </trim>
+        where
+        id =#{id}
+
+    </update>
+
+
+    <!--<update id="updateUser" parameterType="com.zpc.mybatis.pojo.User">-->
+        <!--UPDATE tb_user-->
+        <!--<trim prefix="set" suffixOverrides=",">-->
+            <!--<if test="userName!=null">user_name = #{userName},</if>-->
+            <!--<if test="password!=null">password = #{password},</if>-->
+            <!--<if test="name!=null">name = #{name},</if>-->
+            <!--<if test="age!=null">age = #{age},</if>-->
+            <!--<if test="sex!=null">sex = #{sex},</if>-->
+            <!--<if test="birthday!=null">birthday = #{birthday},</if>-->
+            <!--updated = now(),-->
+        <!--</trim>-->
+        <!--WHERE-->
+        <!--(id = #{id});-->
+    <!--</update>-->
+</mapper>
