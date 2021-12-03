@@ -12,33 +12,31 @@
     </insert>
 
     <update id="updateFriend" parameterType="com.star.entity.Friend">
-    update friend
-    <trim prefix="(" suffixOverrides=",">
-    <if test="blogaddress!=null">
-        blogaddress=#{blogaddress},</if>
+        update friend set
+        <if test="blogaddress!=null">
+            blogaddress=#{blogaddress},
+        </if>
         <if test="blogname!=null">
-            blogname=#{blogname},</if>
-        <if test="pictureaddress!=null">,</if>
+            blogname=#{blogname},
+        </if>
+        <if test="pictureaddress!=null"></if>
         pictureaddress=#{pictureaddress}
-   </trim>
         where
         id =#{id}
 
     </update>
 
 
-    <!--<update id="updateUser" parameterType="com.zpc.mybatis.pojo.User">-->
-        <!--UPDATE tb_user-->
-        <!--<trim prefix="set" suffixOverrides=",">-->
-            <!--<if test="userName!=null">user_name = #{userName},</if>-->
-            <!--<if test="password!=null">password = #{password},</if>-->
-            <!--<if test="name!=null">name = #{name},</if>-->
-            <!--<if test="age!=null">age = #{age},</if>-->
-            <!--<if test="sex!=null">sex = #{sex},</if>-->
-            <!--<if test="birthday!=null">birthday = #{birthday},</if>-->
-            <!--updated = now(),-->
-        <!--</trim>-->
-        <!--WHERE-->
-        <!--(id = #{id});-->
-    <!--</update>-->
+    <delete id="delete">
+        delete from friend where id =#{id}
+    </delete>
+
+    <select id="getFriendByName" resultType="com.star.entity.Friend">
+        select * from friend where blogname=#{friendName}
+    </select>
+
+    <select id="getFriendById" resultType="com.star.entity.Friend">
+        select * from friend where id=#{id}
+    </select>
+
 </mapper>

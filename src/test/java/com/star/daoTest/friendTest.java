@@ -55,4 +55,17 @@ public class friendTest {
             System.out.println("update friend failed");
         }
     }
+
+    @Test
+    public void testQueryFriendById() {
+        Friend friend = friendDao.getFriendById(58l);
+        System.out.println(friend);
+    }
+
+    @Test
+    public void testQueryFriendByName() {
+
+        Friend friend = friendDao.getFriendByName("new name");
+        System.out.println(friend);
+    }
 }

@@ -13,6 +13,7 @@ public interface TypeDao {
     int saveType(Type type);
 
     //    删除分类
+
     int deleteType(long id);
 
     //    更新分类
